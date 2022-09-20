@@ -1,4 +1,52 @@
+body{
+  margin: 0;
+}
 .container{
   display: grid;
-  grid-template:1fr 4fr;
+  grid-template-columns:1fr 4fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+.sidebar{
+  background-color: rgb(103, 174, 255);
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  color: rgb(253, 248, 238);
+  font-weight: 800;
+  padding: 8px;
+  height: 100vh;
+}
+
+.header{
+  background-color: rgb(255, 253, 232);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  border-radius: 9em;
+  border: 1px solid rgb(190, 188, 188);
+}
+.first-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+}
+.second-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+}
+
+.button{
+  display: flex;
+  padding-bottom: -10px;
+  gap: 12px;
+}
+button{
+  width: 4rem;
+  height: 20px;
+  background-color: rgb(103, 174, 255);
+  border: 1px solid whitesmoke;
+  border-radius: 12em;
 }
