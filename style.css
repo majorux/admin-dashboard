@@ -9,7 +9,7 @@ body{
   height: 100vh;
 }
 .sidebar{
-  background-color: rgb(103, 174, 255);
+  background-color: rgb(62, 129, 206);
   grid-column: 1 / 2;
   grid-row: 1 / -1;
   color: rgb(253, 248, 238);
@@ -46,7 +46,7 @@ input{
   width: 20rem;
   border-radius: 9em;
   border: 1px solid rgb(190, 188, 188);
-  background-color: rgb(243, 245, 247);
+  background-color: rgb(226, 229, 231);
 }
 .first-header{
   display: flex;
@@ -67,15 +67,17 @@ input{
 button{
   width: 4rem;
   height: 20px;
-  background-color: rgb(103, 174, 255);
+  background-color: rgb(62, 129, 206);
   border: 1px solid whitesmoke;
   border-radius: 12em;
+  color: aliceblue;
+  font-weight: 600;
 }
 
 .main-content{
   display: flex;
   padding: 8px;
-  background-color: rgb(243, 245, 247);
+  background-color: rgb(226, 229, 231);
   height: 47rem;
 }
 .title{
@@ -94,9 +96,41 @@ button{
   padding: 16px;
   border-left: 4px solid orange;
   border-radius: 0.5rem;
+  min-height: 7rem;
 }
 .head-text{
   font-size: medium;
   font-weight: 850;
   padding-bottom: 1px;
 }
+.main-side{
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.annoucements{
+  display: grid;
+  background-color: rgb(255, 255, 249);
+  padding: 1rem;
+  margin-top: 0;
+  width: 12rem;
+}
+
+.announce-block-head{
+  font-weight: 600;
+}
+.announce-block{
+  padding: 1rem;
+}
+
+.trending{
+  margin-top: 1rem;
+}
+.trending-block{
+  display: grid;
+  background-color: rgb(255, 255, 249);
+  padding: 1rem;
+}
+.trend{
+  padding: 3px;
+}
+
