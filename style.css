@@ -38,6 +38,11 @@ body{
 #search{
   display: flex;
   gap: 0.6rem;
+  height: 20px;
+}
+#search .icons{
+  height: 16px;
+  margin-top: 2px;
 }
 .header{
   padding: 8px;
@@ -58,10 +63,19 @@ input{
   justify-content: space-between;
   margin: 6px;
 }
+.first-header .intro a{
+  margin-top: 6px
+}
+.first-header .intro img{
+  width: 2rem;
+}
 .second-header{
   display: flex;
   justify-content: space-between;
   margin: 6px;
+}
+.intro #hi{
+  margin-top: 4px;
 }
 
 .button{
@@ -79,6 +93,17 @@ button{
   font-weight: 600;
 }
 
+.intro{
+  display: flex;
+  gap: 5px;
+}
+.profile-text{
+  margin-top: 4px;
+}
+.images{
+  width: 3rem;
+  border-radius: 3rem;
+}
 .main-content{
   display: flex;
   padding: 8px;
@@ -97,11 +122,14 @@ button{
 }
 
 .grids{
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 255, 249);
-  padding: 16px;
+  padding: 10px;
   border-left: 4px solid orange;
   border-radius: 0.5rem;
-  min-height: 7rem;
+  min-height: 10rem;
+  position: relative;
 }
 .head-text{
   font-size: medium;
@@ -152,4 +180,15 @@ a{
   display: flex;
   gap: 0.4rem;
 
+}
+
+.main-icons{
+  padding: 3px;
+  margin: 8px;
+}
+
+.bottomright{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
