@@ -15,6 +15,7 @@ body{
   color: rgb(253, 248, 238);
   font-weight: 1000;
   padding: 2rem;
+  width: 10rem;
 }
 .sidebar a{
  color: aliceblue; 
@@ -34,6 +35,10 @@ body{
   padding: 15px;
 }
 
+#search{
+  display: flex;
+  gap: 0.6rem;
+}
 .header{
   padding: 8px;
   display: flex;
@@ -133,4 +138,18 @@ button{
 .trend{
   padding: 3px;
 }
+a{
+  text-decoration:none
+}
+.main-content a{
+  color: black;
+}
 
+.icons{
+  width: 1rem;
+}
+.path{
+  display: flex;
+  gap: 0.4rem;
+
+}
